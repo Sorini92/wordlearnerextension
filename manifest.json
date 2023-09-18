@@ -1,0 +1,26 @@
+{
+  "action": {
+    "default_popup": "./src/popup/public/index.html"
+  },
+  "permissions": [ "identity" ],
+  "description": "Extension for world learner",
+  "manifest_version": 3,
+  "icons": {
+    "16":"/src/popup/public/icons/icon.png",
+    "32":"/src/popup/public/icons/icon.png",
+    "48":"/src/popup/public/icons/icon.png",
+    "128":"/src/popup/public/icons/icon.png"
+  },
+  "name": "Word Learner Extension",
+  "short_name": "WLE",
+  "version": "0.1",
+  "web_accessible_resources": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline';"
+  },
+  "oauth2": {
+    "client_id": "713882064458-hsjk4g1jfhs6bicvschotutfpur5qk4h.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/userinfo.email"]
+  }, 
+  "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCUdEGy0fIm1/wYwbOIlbXvv9XxBC9BXho40teMKkWK+OOgmMMYkPEty/U7mwrgeQnmWJHn2iMmKr6yIWhCiVzU3E/WTS0aL6hH8BggiVZBmDl9m/OVkzRmojFGDzHDzQQMvHIaMzp7hxmDY6OdsyyHiHNF3O/eVWEfe4D/5A2FZo0pRF/8T9d/HV3w0EDaLcMugq1E7gozOFRr/U2aEHcKHHsNz/5/cpv2z5sL/o4Yui+BbXOxVSbfcMwvhpvO89iCnZVntPNbF+Ga0TqzGgYhbDazB9UuBW0DstloFsA+y32i1082/ZKVEEUxSzIR1kiT6TN9llidkyU57B7XWXenAgMBAAECggEAPmMK9xC2wG81ENxaTBSKZGpMiOB20XQv9eBZWBytpAULeAKqvoiu6k2TzgxOil4jdGuVSYfJDLGa+TYD4C5k1kmNvaQqR55ujGjQYuAEYUWNJ4Xh3GKD+3u+1E/vXHcsdAO/udX8hkwUwzwc1tmk5YJI2zvJjDh6O+ZFpIQc0InP/4fo4//gtpfCMY8AmvbMq3YG3g/z1c10D89x8RZETFeMGRBB6+6D6zvwL0+QzdCZ9WVKkbyk8GpXih71zMvca1PFzQHUNBunV7kARy002YiYbCNXLjSIvPyqAB5CalYeNuykO5tIDmGxWg+i4MsSn0txdMrQrEllFp9UaJ1l0QKBgQDDMPU9cBmWxt7SY54QuIPC/obo2oQq8u3LOcS+xwpZqTNiaQri2ji5UMwxNI5lusBQhP/lU1ie+j/3MvC0bXsh1rnwe2VjEpGyEbNBpu4xUwVAzhW7MRRuaSUaOJuXa6uLKT5/Lq05ZVXcXmyCz+zdiPQaCpHsX143iVFVVaB3dwKBgQDCs+JluobX+7LoSRNKKaKt++8V8k3um947KWLK1myHYhLn8Oz+RXDp2/CiLmexhrLYTFvIxuz85EXHYQhdLeo7b4xtbdAlGQ0LJ+f2wADB+OPzn8iJIiNjZQF4cVkgEpA0A5tSIhf1V4zwxCyqhbSu8ckoyLEnP9siefNO8nptUQKBgCPl3CSJeltNhethoM9ob+srznoCvi378ZnfrPx9NL0arjWaJgNkqOwEHRmrlcjF2Nq2Ky3s7y6Fzb/T4Yr9W5j0mcvNle7rmloKgVJAtiviHeQ2Qq7jruNDeSxiXtMxXSJB2pmfZwJYTbsyrng8b06rAmHLsdysCXLjUU8FaXavAoGBAKNVSD1Sxr/1VFZsxxPV7bTKvfzJMftTIpC63TePvaes7HNKt2VvV5O3gBxtlWtlti6hj/XUewaDcM4bZmrUk8SchU9faddVNo3/QibLV1dhtciwaAgybUF6gEtLuxqet/4KcIfsNfEJKyDnURkT5UlFaB0gjwyAExLO/v9hhrahAoGBAJRDLIJnliSG5j2BUOJBWVcgPKiWlXkFaiWx2Gjr9QnVjjN5IeOeSaPGxReqbHuENpZmXAqCDVKlXYjYMMZHoD9K5WfboteLFaF7bFqB059+Tl6MV5ph7D707Bq+3jUq6mdxpVZmY3cbVr0rsW/jYjR+GFVY6BXtws6a22t8QcbN"
+}
